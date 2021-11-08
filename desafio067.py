@@ -3,8 +3,9 @@
 # negativo.
 
 while True:
-    n = int(input("Digite o número que deseja ver a tabuada: [0 PARA SAIR] "))
-    if n <= 0:
+    n = int(input("Digite o número que deseja ver a tabuada: "))
+    print("Digite qualquer número negativo para sair do programa !")
+    if n < 0:
         print('FIM DO PROGRAMA !')
         break
     else:
