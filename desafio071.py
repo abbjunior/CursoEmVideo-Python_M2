@@ -27,5 +27,6 @@ while True:
         elif cedula == 10:
             cedula = 1
         totalCedula = 0
+        
         if total == 0:
             break
